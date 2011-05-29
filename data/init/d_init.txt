@@ -14,7 +14,7 @@ Set this to NO to make Dwarf Fortress remain in the saved pause state when you l
 
 Set this to YES if you want Dwarf Fortress to show the warning window on embark as a confirmation even if there are no issues.
 
-[EMBARK_WARNING_ALWAYS:NO]
+[EMBARK_WARNING_ALWAYS:YES]
 
 You can change these to ALWAYS and NO.  More restrictive world parameter settings override these.  ALWAYS lets you see the features in the Local view during embark, and NO stops you from looking for features in the site finder (though if you really want to stop the finder, it might be better for you to generate worlds that restrict the use of this feature completely, in which case you don't need to change the settings here).
 
@@ -77,7 +77,7 @@ As above, for inside/subterranean areas.
 
 Pillar tile, <character> as above.
 
-[PILLAR_TILE:'O']
+[PILLAR_TILE:245]
 
 This controls the "IDLERS: <number>" that is displayed in dwarf mode.  You can set it to TOP, BOTTOM or OFF.
 
@@ -97,7 +97,7 @@ If you don't like the ,.`' ground, try setting this to NO.  The ground will turn
 
 If you'd like your engravings to start off looking the same (you can toggle them on individual later), set this to YES.
 
-[ENGRAVINGS_START_OBSCURED:NO]
+[ENGRAVINGS_START_OBSCURED:YES]
 
 If you get annoyed by seeing items like *<*sword*>* you can
 get rid of the outside ** by setting this to NO.

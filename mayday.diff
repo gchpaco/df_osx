@@ -1,0 +1,2826 @@
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/colors.txt dfg3114/data/init/colors.txt
+*** df_linux/data/init/colors.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/data/init/colors.txt	2010-09-25 00:03:17.227727040 +0200
+***************
+*** 5,11 ****
+  [BLACK_B:0]
+! [BLUE_R:0]
+! [BLUE_G:0]
+! [BLUE_B:128]
+! [GREEN_R:0]
+! [GREEN_G:128]
+  [GREEN_B:0]
+--- 5,13 ----
+  [BLACK_B:0]
+! 
+! [BLUE_R:30]
+! [BLUE_G:50]
+! [BLUE_B:168]
+! 
+! [GREEN_R:96]
+! [GREEN_G:170]
+  [GREEN_B:0]
+***************
+*** 13,24 ****
+  [CYAN_G:128]
+! [CYAN_B:128]
+! [RED_R:128]
+! [RED_G:0]
+  [RED_B:0]
+  [MAGENTA_R:128]
+! [MAGENTA_G:0]
+! [MAGENTA_B:128]
+! [BROWN_R:128]
+! [BROWN_G:128]
+! [BROWN_B:0]
+  [LGRAY_R:192]
+--- 15,29 ----
+  [CYAN_G:128]
+! [CYAN_B:140]
+! 
+! [RED_R:200]
+! [RED_G:20]
+  [RED_B:0]
+  [MAGENTA_R:128]
+! [MAGENTA_G:50]
+! [MAGENTA_B:200]
+! 
+! [BROWN_R:140]
+! [BROWN_G:98]
+! [BROWN_B:56]
+! 
+  [LGRAY_R:192]
+***************
+*** 30,50 ****
+  [LBLUE_R:0]
+! [LBLUE_G:0]
+  [LBLUE_B:255]
+! [LGREEN_R:0]
+! [LGREEN_G:255]
+  [LGREEN_B:0]
+  [LCYAN_R:0]
+! [LCYAN_G:255]
+  [LCYAN_B:255]
+  [LRED_R:255]
+! [LRED_G:0]
+  [LRED_B:0]
+! [LMAGENTA_R:255]
+! [LMAGENTA_G:0]
+  [LMAGENTA_B:255]
+  [YELLOW_R:255]
+! [YELLOW_G:255]
+! [YELLOW_B:0]
+  [WHITE_R:255]
+! [WHITE_G:255]
+! [WHITE_B:255]
+\ Kein Zeilenumbruch am Dateiende.
+--- 35,58 ----
+  [LBLUE_R:0]
+! [LBLUE_G:120]
+  [LBLUE_B:255]
+! 
+! [LGREEN_R:134]
+! [LGREEN_G:213]
+  [LGREEN_B:0]
+  [LCYAN_R:0]
+! [LCYAN_G:200]
+  [LCYAN_B:255]
+  [LRED_R:255]
+! [LRED_G:50]
+  [LRED_B:0]
+! 
+! [LMAGENTA_R:210]
+! [LMAGENTA_G:10]
+  [LMAGENTA_B:255]
+  [YELLOW_R:255]
+! [YELLOW_G:232]
+! [YELLOW_B:76]
+! 
+  [WHITE_R:255]
+! [WHITE_G:250]
+! [WHITE_B:230]
+\ Kein Zeilenumbruch am Dateiende.
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/d_init.txt dfg3114/data/init/d_init.txt
+*** df_linux/data/init/d_init.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/data/init/d_init.txt	2010-09-25 00:03:17.227727040 +0200
+***************
+*** 16,18 ****
+  
+! [EMBARK_WARNING_ALWAYS:NO]
+  
+--- 16,18 ----
+  
+! [EMBARK_WARNING_ALWAYS:YES]
+  
+***************
+*** 77,79 ****
+  
+! [PILLAR_TILE:'O']
+  
+--- 77,79 ----
+  
+! [PILLAR_TILE:245]
+  
+***************
+*** 97,99 ****
+  
+! [ENGRAVINGS_START_OBSCURED:NO]
+  
+--- 97,99 ----
+  
+! [ENGRAVINGS_START_OBSCURED:YES]
+  
+Nur in dfg3114/data/init: embark_profiles.txt.
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/init.txt dfg3114/data/init/init.txt
+*** df_linux/data/init/init.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/data/init/init.txt	2010-09-25 00:03:17.227727040 +0200
+***************
+*** 29,31 ****
+  [WINDOWEDY:25]
+! [FONT:curses_640x300.png]
+  
+--- 29,31 ----
+  [WINDOWEDY:25]
+! [FONT:mayday.png]
+  
+***************
+*** 38,40 ****
+  [FULLSCREENY:0]
+! [FULLFONT:curses_800x600.png]
+  
+--- 38,40 ----
+  [FULLSCREENY:0]
+! [FULLFONT:mayday.png]
+  
+***************
+*** 47,55 ****
+  
+! [GRAPHICS:NO]
+  [GRAPHICS_WINDOWEDX:0]
+  [GRAPHICS_WINDOWEDY:0]
+! [GRAPHICS_FONT:curses_square_16x16.png]
+  [GRAPHICS_FULLSCREENX:0]
+  [GRAPHICS_FULLSCREENY:0]
+! [GRAPHICS_FULLFONT:curses_square_16x16.png]
+  [GRAPHICS_BLACK_SPACE:YES]
+--- 47,55 ----
+  
+! [GRAPHICS:YES]
+  [GRAPHICS_WINDOWEDX:0]
+  [GRAPHICS_WINDOWEDY:0]
+! [GRAPHICS_FONT:mayday.png]
+  [GRAPHICS_FULLSCREENX:0]
+  [GRAPHICS_FULLSCREENY:0]
+! [GRAPHICS_FULLFONT:mayday.png]
+  [GRAPHICS_BLACK_SPACE:YES]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_amphibians.txt dfg3114/raw/objects/creature_amphibians.txt
+*** df_linux/raw/objects/creature_amphibians.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_amphibians.txt	2010-09-25 00:03:17.144724577 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:toad:toads:toad]
+! 	[CREATURE_TILE:249][COLOR:2:0:0]
+  	[PETVALUE:10]
+--- 8,10 ----
+  	[CASTE_NAME:toad:toads:toad]
+! 	[CREATURE_TILE:172][COLOR:2:0:0]
+  	[PETVALUE:10]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_annelids.txt dfg3114/raw/objects/creature_annelids.txt
+*** df_linux/raw/objects/creature_annelids.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_annelids.txt	2010-09-25 00:03:17.135599813 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:worm:worms:worm]
+! 	[CREATURE_TILE:'~'][COLOR:7:0:0]
+  	[PETVALUE:10]
+--- 8,10 ----
+  	[CASTE_NAME:worm:worms:worm]
+! 	[CREATURE_TILE:166][COLOR:7:0:0]
+  	[PETVALUE:10]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_birds.txt dfg3114/raw/objects/creature_birds.txt
+*** df_linux/raw/objects/creature_birds.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_birds.txt	2010-09-25 00:03:17.139600252 +0200
+***************
+*** 9,11 ****
+  	[GENERAL_CHILD_NAME:blue jay hatchling:blue jay hatchlings]
+! 	[CREATURE_TILE:249][COLOR:1:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+--- 9,11 ----
+  	[GENERAL_CHILD_NAME:blue jay hatchling:blue jay hatchlings]
+! 	[CREATURE_TILE:171][COLOR:1:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+***************
+*** 98,100 ****
+  	[GENERAL_CHILD_NAME:cardinal hatchling:cardinal hatchlings]
+! 	[CREATURE_TILE:249][COLOR:4:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+--- 98,100 ----
+  	[GENERAL_CHILD_NAME:cardinal hatchling:cardinal hatchlings]
+! 	[CREATURE_TILE:171][COLOR:4:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+***************
+*** 186,188 ****
+  	[GENERAL_CHILD_NAME:grackle hatchling:grackle hatchlings]
+! 	[CREATURE_TILE:249][COLOR:0:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+--- 186,188 ----
+  	[GENERAL_CHILD_NAME:grackle hatchling:grackle hatchlings]
+! 	[CREATURE_TILE:171][COLOR:0:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+***************
+*** 271,273 ****
+  	[GENERAL_CHILD_NAME:oriole hatchling:oriole hatchlings]
+! 	[CREATURE_TILE:249][COLOR:6:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+--- 271,273 ----
+  	[GENERAL_CHILD_NAME:oriole hatchling:oriole hatchlings]
+! 	[CREATURE_TILE:171][COLOR:6:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+***************
+*** 355,357 ****
+  	[GENERAL_CHILD_NAME:red-winged blackbird hatchling:red-winged blackbird hatchlings]
+! 	[CREATURE_TILE:249][COLOR:0:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+--- 355,357 ----
+  	[GENERAL_CHILD_NAME:red-winged blackbird hatchling:red-winged blackbird hatchlings]
+! 	[CREATURE_TILE:171][COLOR:0:0:1]
+  	[PETVALUE:30][NATURAL][PET]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_insects.txt dfg3114/raw/objects/creature_insects.txt
+*** df_linux/raw/objects/creature_insects.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_insects.txt	2010-09-25 00:03:17.138602988 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:fly:flies:fly]
+! 	[CREATURE_TILE:250][COLOR:0:0:1]
+  	[NATURAL]
+--- 8,10 ----
+  	[CASTE_NAME:fly:flies:fly]
+! 	[CREATURE_TILE:164][COLOR:7:0:0]
+  	[NATURAL]
+***************
+*** 61,63 ****
+  	[CASTE_NAME:large roach:large roaches:large roach]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[NATURAL][PET]
+--- 61,63 ----
+  	[CASTE_NAME:large roach:large roaches:large roach]
+! 	[CREATURE_TILE:165][COLOR:6:0:0]
+  	[NATURAL][PET]
+***************
+*** 114,116 ****
+  	[CASTE_NAME:beetle:beetles:beetle]
+! 	[CREATURE_TILE:250][COLOR:4:0:0]
+  	[NATURAL]
+--- 114,116 ----
+  	[CASTE_NAME:beetle:beetles:beetle]
+! 	[CREATURE_TILE:165][COLOR:4:0:0]
+  	[NATURAL]
+***************
+*** 233,235 ****
+  	[DESCRIPTION:A small insect with large orange wings.  It is admired for its beauty.]
+! 	[CREATURE_TILE:249][COLOR:4:0:1]
+  	[NAME:monarch butterfly:monarch butterflies:monarch butterfly]
+--- 233,235 ----
+  	[DESCRIPTION:A small insect with large orange wings.  It is admired for its beauty.]
+! 	[CREATURE_TILE:163][COLOR:4:0:1]
+  	[NAME:monarch butterfly:monarch butterflies:monarch butterfly]
+***************
+*** 286,288 ****
+  	[CASTE_NAME:firefly:fireflies:firefly]
+! 	[CREATURE_TILE:249][COLOR:2:0:1]
+  	[NATURAL]
+--- 286,288 ----
+  	[CASTE_NAME:firefly:fireflies:firefly]
+! 	[CREATURE_TILE:164][COLOR:2:0:1]
+  	[NATURAL]
+***************
+*** 339,341 ****
+  	[CASTE_NAME:dragonfly:dragonflies:dragonfly]
+! 	[CREATURE_TILE:249][COLOR:3:0:1]
+  	[NATURAL]
+--- 339,341 ----
+  	[CASTE_NAME:dragonfly:dragonflies:dragonfly]
+! 	[CREATURE_TILE:164][COLOR:3:0:1]
+  	[NATURAL]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_next_underground.txt dfg3114/raw/objects/creature_next_underground.txt
+*** df_linux/raw/objects/creature_next_underground.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_next_underground.txt	2010-09-25 00:03:17.136599591 +0200
+***************
+*** 9,11 ****
+  	[CASTE_NAME:floating guts:floating guts:floating guts]
+! 	[CREATURE_TILE:'%'][COLOR:7:0:0]
+  	[BIOME:SUBTERRANEAN_CHASM]
+--- 9,11 ----
+  	[CASTE_NAME:floating guts:floating guts:floating guts]
+! 	[CREATURE_TILE:247][COLOR:7:0:0]
+  	[BIOME:SUBTERRANEAN_CHASM]
+***************
+*** 408,410 ****
+  	[CASTE_NAME:magma crab:magma crabs:magma crab]
+! 	[CREATURE_TILE:'C'][COLOR:0:0:1]
+  	[PETVALUE:200]
+--- 408,410 ----
+  	[CASTE_NAME:magma crab:magma crabs:magma crab]
+! 	[CREATURE_TILE:154][COLOR:0:0:1]
+  	[PETVALUE:200]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_other.txt dfg3114/raw/objects/creature_other.txt
+*** df_linux/raw/objects/creature_other.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_other.txt	2010-09-25 00:03:17.145724425 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:fox squirrel:fox squirrels:fox squirrel]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[PETVALUE:100]
+--- 8,10 ----
+  	[CASTE_NAME:fox squirrel:fox squirrels:fox squirrel]
+! 	[CREATURE_TILE:157][COLOR:6:0:0]
+  	[PETVALUE:100]
+***************
+*** 84,86 ****
+  	[CASTE_NAME:moghopper:moghoppers:moghopper]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[PETVALUE:20]
+--- 84,86 ----
+  	[CASTE_NAME:moghopper:moghoppers:moghopper]
+! 	[CREATURE_TILE:158][COLOR:6:0:0]
+  	[PETVALUE:20]
+***************
+*** 155,157 ****
+  	[CASTE_NAME:demon rat:demon rats:demon rat]
+! 	[CREATURE_TILE:249][COLOR:4:0:0]
+  	[PETVALUE:20][NATURAL]
+--- 155,157 ----
+  	[CASTE_NAME:demon rat:demon rats:demon rat]
+! 	[CREATURE_TILE:158][COLOR:4:0:0]
+  	[PETVALUE:20][NATURAL]
+***************
+*** 294,296 ****
+  	[GNAWER:gnawed]
+! 	[CREATURE_TILE:249][COLOR:7:0:0]
+  	[PETVALUE:20]
+--- 294,296 ----
+  	[GNAWER:gnawed]
+! 	[CREATURE_TILE:161][COLOR:7:0:0]
+  	[PETVALUE:20]
+***************
+*** 362,364 ****
+  	[CASTE_NAME:knuckle worm:knuckle worms:knuckle worm]
+! 	[CREATURE_TILE:'~'][COLOR:0:0:1]
+  	[PETVALUE:100]
+--- 362,364 ----
+  	[CASTE_NAME:knuckle worm:knuckle worms:knuckle worm]
+! 	[CREATURE_TILE:166][COLOR:0:0:1]
+  	[PETVALUE:100]
+***************
+*** 403,405 ****
+  	[CASTE_NAME:phantom spider:phantom spiders:phantom spider]
+! 	[CREATURE_TILE:249][COLOR:7:0:1]
+  	[CARNIVORE]
+--- 403,405 ----
+  	[CASTE_NAME:phantom spider:phantom spiders:phantom spider]
+! 	[CREATURE_TILE:165][COLOR:7:0:1]
+  	[CARNIVORE]
+***************
+*** 470,472 ****
+  	[CASTE_NAME:acorn fly:acorn flies:acorn fly]
+! 	[CREATURE_TILE:250][COLOR:6:0:0]
+  	[NATURAL]
+--- 470,472 ----
+  	[CASTE_NAME:acorn fly:acorn flies:acorn fly]
+! 	[CREATURE_TILE:164][COLOR:6:0:0]
+  	[NATURAL]
+***************
+*** 522,524 ****
+  	[CASTE_NAME:blood gnat:blood gnats:blood gnat]
+! 	[CREATURE_TILE:250][COLOR:4:0:1]
+  	[NATURAL]
+--- 522,524 ----
+  	[CASTE_NAME:blood gnat:blood gnats:blood gnat]
+! 	[CREATURE_TILE:164][COLOR:4:0:1]
+  	[NATURAL]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_reptiles.txt dfg3114/raw/objects/creature_reptiles.txt
+*** df_linux/raw/objects/creature_reptiles.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_reptiles.txt	2010-09-25 00:03:17.143599574 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:lizard:lizards:lizard]
+! 	[CREATURE_TILE:249][COLOR:2:0:1]
+  	[PETVALUE:10]
+--- 8,10 ----
+  	[CASTE_NAME:lizard:lizards:lizard]
+! 	[CREATURE_TILE:161][COLOR:2:0:1]
+  	[PETVALUE:10]
+***************
+*** 76,78 ****
+  	[CASTE_NAME:turtle:turtles:turtle]
+! 	[CREATURE_TILE:15][COLOR:2:0:0]
+  	[PETVALUE:10]
+--- 76,78 ----
+  	[CASTE_NAME:turtle:turtles:turtle]
+! 	[CREATURE_TILE:160][COLOR:2:0:0]
+  	[PETVALUE:10]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_mammals.txt dfg3114/raw/objects/creature_small_mammals.txt
+*** df_linux/raw/objects/creature_small_mammals.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_small_mammals.txt	2010-09-25 00:03:17.139600252 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:rat:rats:rat]
+! 	[CREATURE_TILE:249][COLOR:0:0:1]
+  	[PETVALUE:10]
+--- 8,10 ----
+  	[CASTE_NAME:rat:rats:rat]
+! 	[CREATURE_TILE:158][COLOR:0:0:1]
+  	[PETVALUE:10]
+***************
+*** 90,92 ****
+  	[CASTE_NAME:gray squirrel:gray squirrels:gray squirrel]
+! 	[CREATURE_TILE:249][COLOR:7:0:0]
+  	[PETVALUE:10]
+--- 90,92 ----
+  	[CASTE_NAME:gray squirrel:gray squirrels:gray squirrel]
+! 	[CREATURE_TILE:157][COLOR:7:0:0]
+  	[PETVALUE:10]
+***************
+*** 167,169 ****
+  	[CASTE_NAME:red squirrel:red squirrels:red squirrel]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[PETVALUE:10]
+--- 167,169 ----
+  	[CASTE_NAME:red squirrel:red squirrels:red squirrel]
+! 	[CREATURE_TILE:157][COLOR:6:0:0]
+  	[PETVALUE:10]
+***************
+*** 244,246 ****
+  	[CASTE_NAME:chipmunk:chipmunks:chipmunk]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[PETVALUE:10]
+--- 244,246 ----
+  	[CASTE_NAME:chipmunk:chipmunks:chipmunk]
+! 	[CREATURE_TILE:158][COLOR:6:0:0]
+  	[PETVALUE:10]
+***************
+*** 321,323 ****
+  	[CASTE_NAME:hedgehog:hedgehogs:hedgehog]
+! 	[CREATURE_TILE:249][COLOR:6:0:0]
+  	[PETVALUE:10]
+--- 321,323 ----
+  	[CASTE_NAME:hedgehog:hedgehogs:hedgehog]
+! 	[CREATURE_TILE:158][COLOR:6:0:0]
+  	[PETVALUE:10]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_ocean.txt dfg3114/raw/objects/creature_small_ocean.txt
+*** df_linux/raw/objects/creature_small_ocean.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_small_ocean.txt	2010-09-25 00:03:17.143599574 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:mussel:mussels:mussel]
+! 	[CREATURE_TILE:'m'][COLOR:7:0:1]
+  	[PETVALUE:10]
+--- 8,10 ----
+  	[CASTE_NAME:mussel:mussels:mussel]
+! 	[CREATURE_TILE:153][COLOR:7:0:1]
+  	[PETVALUE:10]
+***************
+*** 58,60 ****
+  	[CASTE_NAME:oyster:oysters:oyster]
+! 	[CREATURE_TILE:'o'][COLOR:7:0:1]
+  	[PETVALUE:10]
+--- 58,60 ----
+  	[CASTE_NAME:oyster:oysters:oyster]
+! 	[CREATURE_TILE:153][COLOR:7:0:1]
+  	[PETVALUE:10]
+***************
+*** 106,108 ****
+  	[CASTE_NAME:salmon:salmon:salmon]
+! 	[CREATURE_TILE:224][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 106,108 ----
+  	[CASTE_NAME:salmon:salmon:salmon]
+! 	[CREATURE_TILE:152][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 177,179 ****
+  	[CASTE_NAME:clownfish:clownfish:clownfish]
+! 	[CREATURE_TILE:224][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 177,179 ----
+  	[CASTE_NAME:clownfish:clownfish:clownfish]
+! 	[CREATURE_TILE:152][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 244,246 ****
+  	[CASTE_NAME:hagfish:hagfish:hagfish]
+! 	[CREATURE_TILE:'~'][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 244,246 ----
+  	[CASTE_NAME:hagfish:hagfish:hagfish]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 310,312 ****
+  	[CASTE_NAME:brook lamprey:brook lampreys:brook lamprey]
+! 	[CREATURE_TILE:'~'][COLOR:3:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 310,312 ----
+  	[CASTE_NAME:brook lamprey:brook lampreys:brook lamprey]
+! 	[CREATURE_TILE:166][COLOR:3:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 377,379 ****
+  	[CASTE_NAME:bat ray:bat rays:bat ray]
+! 	[CREATURE_TILE:149][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 377,379 ----
+  	[CASTE_NAME:bat ray:bat rays:bat ray]
+! 	[CREATURE_TILE:152][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 443,445 ****
+  	[CASTE_NAME:thornback ray:thornback rays:thornback ray]
+! 	[CREATURE_TILE:149][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 443,445 ----
+  	[CASTE_NAME:thornback ray:thornback rays:thornback ray]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 508,510 ****
+  	[CASTE_NAME:spotted ratfish:spotted ratfish:spotted ratfish]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 508,510 ----
+  	[CASTE_NAME:spotted ratfish:spotted ratfish:spotted ratfish]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 575,577 ****
+  	[CASTE_NAME:herring:herrings:herring]
+! 	[CREATURE_TILE:224][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 575,577 ----
+  	[CASTE_NAME:herring:herrings:herring]
+! 	[CREATURE_TILE:152][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 644,646 ****
+  	[CASTE_NAME:shad:shads:shad]
+! 	[CREATURE_TILE:224][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 644,646 ----
+  	[CASTE_NAME:shad:shads:shad]
+! 	[CREATURE_TILE:152][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 716,718 ****
+  	[CASTE_NAME:anchovy:anchovies:anchovy]
+! 	[CREATURE_TILE:224][COLOR:7:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 716,718 ----
+  	[CASTE_NAME:anchovy:anchovies:anchovy]
+! 	[CREATURE_TILE:152][COLOR:7:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 784,786 ****
+  	[CASTE_NAME:steelhead trout:steelhead trout:steelhead trout]
+! 	[CREATURE_TILE:224][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 784,786 ----
+  	[CASTE_NAME:steelhead trout:steelhead trout:steelhead trout]
+! 	[CREATURE_TILE:152][COLOR:3:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 855,857 ****
+  	[CASTE_NAME:hake:hake:hake]
+! 	[CREATURE_TILE:224][COLOR:7:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 855,857 ----
+  	[CASTE_NAME:hake:hake:hake]
+! 	[CREATURE_TILE:152][COLOR:7:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 924,926 ****
+  	[CASTE_NAME:seahorse:seahorses:seahorse]
+! 	[CREATURE_TILE:224][COLOR:2:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 924,926 ----
+  	[CASTE_NAME:seahorse:seahorses:seahorse]
+! 	[CREATURE_TILE:152][COLOR:2:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 987,989 ****
+  	[CASTE_NAME:glasseye:glasseye:glasseye]
+! 	[CREATURE_TILE:224][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 987,989 ----
+  	[CASTE_NAME:glasseye:glasseye:glasseye]
+! 	[CREATURE_TILE:152][COLOR:4:0:1]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 1055,1057 ****
+  	[CASTE_NAME:white-spotted puffer:white-spotted puffers:white-spotted puffer]
+! 	[CREATURE_TILE:224][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 1055,1057 ----
+  	[CASTE_NAME:white-spotted puffer:white-spotted puffers:white-spotted puffer]
+! 	[CREATURE_TILE:152][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 1117,1119 ****
+  	[CASTE_NAME:sole:sole:sole]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 1117,1119 ----
+  	[CASTE_NAME:sole:sole:sole]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 1185,1187 ****
+  	[CASTE_NAME:flounder:flounders:flounder]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 1185,1187 ----
+  	[CASTE_NAME:flounder:flounders:flounder]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 1252,1254 ****
+  	[CASTE_NAME:mackerel:mackerel:mackerel]
+! 	[CREATURE_TILE:224][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+--- 1252,1254 ----
+  	[CASTE_NAME:mackerel:mackerel:mackerel]
+! 	[CREATURE_TILE:152][COLOR:7:0:0]
+  	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
+***************
+*** 1321,1323 ****
+  	[CASTE_NAME:sea nettle jellyfish:sea nettle jellyfish:sea nettle jellyfish]
+! 	[CREATURE_TILE:234][COLOR:6:0:0]
+  	[PETVALUE:10]
+--- 1321,1323 ----
+  	[CASTE_NAME:sea nettle jellyfish:sea nettle jellyfish:sea nettle jellyfish]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[PETVALUE:10]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_riverlake.txt dfg3114/raw/objects/creature_small_riverlake.txt
+*** df_linux/raw/objects/creature_small_riverlake.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_small_riverlake.txt	2010-09-25 00:03:17.143599574 +0200
+***************
+*** 8,10 ****
+  	[CASTE_NAME:lungfish:lungfish:lungfish]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[VERMIN_GROUNDER]
+--- 8,10 ----
+  	[CASTE_NAME:lungfish:lungfish:lungfish]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[VERMIN_GROUNDER]
+***************
+*** 84,86 ****
+  	[CASTE_NAME:clown loach:clown loaches:clown loach]
+! 	[CREATURE_TILE:224][COLOR:6:0:1]
+  	[VERMIN_GROUNDER]
+--- 84,86 ----
+  	[CASTE_NAME:clown loach:clown loaches:clown loach]
+! 	[CREATURE_TILE:152][COLOR:6:0:1]
+  	[VERMIN_GROUNDER]
+***************
+*** 152,154 ****
+  	[CASTE_NAME:brown bullhead:brown bullheads:brown bullhead]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 152,154 ----
+  	[CASTE_NAME:brown bullhead:brown bullheads:brown bullhead]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+***************
+*** 219,221 ****
+  	[CASTE_NAME:yellow bullhead:yellow bullheads:yellow bullhead]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 219,221 ----
+  	[CASTE_NAME:yellow bullhead:yellow bullheads:yellow bullhead]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+***************
+*** 286,288 ****
+  	[CASTE_NAME:black bullhead:black bullheads:black bullhead]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 286,288 ----
+  	[CASTE_NAME:black bullhead:black bullheads:black bullhead]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+***************
+*** 353,355 ****
+  	[CASTE_NAME:banded knifefish:banded knifefish:banded knifefish]
+! 	[CREATURE_TILE:224][COLOR:6:0:0]
+  	[VERMIN_GROUNDER]
+--- 353,355 ----
+  	[CASTE_NAME:banded knifefish:banded knifefish:banded knifefish]
+! 	[CREATURE_TILE:152][COLOR:6:0:0]
+  	[VERMIN_GROUNDER]
+***************
+*** 421,423 ****
+  	[CASTE_NAME:char:char:char]
+! 	[CREATURE_TILE:224][COLOR:0:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 421,423 ----
+  	[CASTE_NAME:char:char:char]
+! 	[CREATURE_TILE:152][COLOR:0:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+***************
+*** 489,491 ****
+  	[CASTE_NAME:rainbow trout:rainbow trout:rainbow trout]
+! 	[CREATURE_TILE:224][COLOR:2:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 489,491 ----
+  	[CASTE_NAME:rainbow trout:rainbow trout:rainbow trout]
+! 	[CREATURE_TILE:152][COLOR:2:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+***************
+*** 557,559 ****
+  	[CASTE_NAME:sailfin molly:sailfin mollies:sailfin molly]
+! 	[CREATURE_TILE:224][COLOR:2:0:0]
+  	[VERMIN_GROUNDER]
+--- 557,559 ----
+  	[CASTE_NAME:sailfin molly:sailfin mollies:sailfin molly]
+! 	[CREATURE_TILE:152][COLOR:2:0:0]
+  	[VERMIN_GROUNDER]
+***************
+*** 629,631 ****
+  	[CASTE_NAME:guppy:guppies:guppy]
+! 	[CREATURE_TILE:224][COLOR:1:0:1]
+  	[VERMIN_GROUNDER]
+--- 629,631 ----
+  	[CASTE_NAME:guppy:guppies:guppy]
+! 	[CREATURE_TILE:152][COLOR:1:0:1]
+  	[VERMIN_GROUNDER]
+***************
+*** 701,703 ****
+  	[CASTE_NAME:perch:perch:perch]
+! 	[CREATURE_TILE:224][COLOR:7:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+--- 701,703 ----
+  	[CASTE_NAME:perch:perch:perch]
+! 	[CREATURE_TILE:152][COLOR:7:0:1]
+  	[VERMIN_GROUNDER][VERMIN_FISH]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_standard.txt dfg3114/raw/objects/creature_standard.txt
+*** df_linux/raw/objects/creature_standard.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_standard.txt	2010-09-25 00:03:17.146724483 +0200
+***************
+*** 3170,3172 ****
+  	[CASTE_NAME:fairy:fairies:fairy]
+! 	[CREATURE_TILE:249][COLOR:6:0:1]
+  	[BIOME:ALL_MAIN]
+--- 3170,3172 ----
+  	[CASTE_NAME:fairy:fairies:fairy]
+! 	[CREATURE_TILE:170][COLOR:6:0:1]
+  	[BIOME:ALL_MAIN]
+***************
+*** 3344,3346 ****
+  	[CASTE_NAME:pixie:pixies:pixie]
+! 	[CREATURE_TILE:250][COLOR:3:0:1]
+  	[BIOME:ALL_MAIN]
+--- 3344,3346 ----
+  	[CASTE_NAME:pixie:pixies:pixie]
+! 	[CREATURE_TILE:170][COLOR:3:0:1]
+  	[BIOME:ALL_MAIN]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_subterranean.txt dfg3114/raw/objects/creature_subterranean.txt
+*** df_linux/raw/objects/creature_subterranean.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/creature_subterranean.txt	2010-09-25 00:03:17.138602988 +0200
+***************
+*** 960,962 ****
+  	[CASTE_NAME:cave spider:cave spiders:cave spider]
+! 	[CREATURE_TILE:249][COLOR:7:0:0]
+  	[CARNIVORE]
+--- 960,962 ----
+  	[CASTE_NAME:cave spider:cave spiders:cave spider]
+! 	[CREATURE_TILE:165][COLOR:7:0:0]
+  	[CARNIVORE]
+***************
+*** 1035,1037 ****
+  	[CASTE_NAME:cave fish:cave fish:cave fish]
+! 	[CREATURE_TILE:224][COLOR:7:0:1]
+  	[VERMIN_FISH][VERMIN_GROUNDER][FISHITEM][IMMOBILE_LAND][VERMIN_NOTRAP]
+--- 1035,1037 ----
+  	[CASTE_NAME:cave fish:cave fish:cave fish]
+! 	[CREATURE_TILE:152][COLOR:7:0:1]
+  	[VERMIN_FISH][VERMIN_GROUNDER][FISHITEM][IMMOBILE_LAND][VERMIN_NOTRAP]
+***************
+*** 1123,1125 ****
+  	[CASTE_NAME:cave lobster:cave lobsters:cave lobster]
+! 	[CREATURE_TILE:157][COLOR:7:0:1]
+  	[VERMIN_FISH][FISHITEM][VERMIN_NOFISH]
+--- 1123,1125 ----
+  	[CASTE_NAME:cave lobster:cave lobsters:cave lobster]
+! 	[CREATURE_TILE:154][COLOR:7:0:1]
+  	[VERMIN_FISH][FISHITEM][VERMIN_NOFISH]
+***************
+*** 1173,1175 ****
+  	[CASTE_NAME:fire snake:fire snakes:fire snake]
+! 	[CREATURE_TILE:249][COLOR:6:0:1]
+  	[PETVALUE:10]
+--- 1173,1175 ----
+  	[CASTE_NAME:fire snake:fire snakes:fire snake]
+! 	[CREATURE_TILE:166][COLOR:6:0:1]
+  	[PETVALUE:10]
+***************
+*** 1214,1216 ****
+  	[CASTE_NAME:olm:olms:olm]
+! 	[CREATURE_TILE:249][COLOR:7:0:1]
+  	[PETVALUE:10]
+--- 1214,1216 ----
+  	[CASTE_NAME:olm:olms:olm]
+! 	[CREATURE_TILE:166][COLOR:7:0:1]
+  	[PETVALUE:10]
+***************
+*** 1298,1300 ****
+  	[CASTE_NAME:bat:bats:bat]
+! 	[CREATURE_TILE:249][COLOR:0:0:1]
+  	[PETVALUE:10]
+--- 1298,1300 ----
+  	[CASTE_NAME:bat:bats:bat]
+! 	[CREATURE_TILE:156][COLOR:0:0:1]
+  	[PETVALUE:10]
+***************
+*** 1405,1407 ****
+  	[CASTE_NAME:purring maggot:purring maggots:purring maggot]
+! 	[CREATURE_TILE:'{'][COLOR:7:0:1][ALTTILE:'}']
+  	[PETVALUE:10]
+--- 1405,1407 ----
+  	[CASTE_NAME:purring maggot:purring maggots:purring maggot]
+! 	[CREATURE_TILE:166][COLOR:7:0:1][ALTTILE:'}']
+  	[PETVALUE:10]
+***************
+*** 1716,1718 ****
+  	[GENERAL_CHILD_NAME:cave swallow hatchling:cave swallow hatchlings]
+! 	[CREATURE_TILE:249][COLOR:0:0:1]
+  	[PETVALUE:30]
+--- 1716,1718 ----
+  	[GENERAL_CHILD_NAME:cave swallow hatchling:cave swallow hatchlings]
+! 	[CREATURE_TILE:171][COLOR:0:0:1]
+  	[PETVALUE:30]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_gem.txt dfg3114/raw/objects/inorganic_stone_gem.txt
+*** df_linux/raw/objects/inorganic_stone_gem.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/inorganic_stone_gem.txt	2010-09-25 00:03:17.145724425 +0200
+***************
+*** 8,10 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:onyx:onyxes:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 8,10 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:onyx:onyxes:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 13,15 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:morion:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 13,15 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:morion:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 18,20 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:schorl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 18,20 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:schorl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 25,27 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:15][IS_GEM:lace agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 25,27 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:10][IS_GEM:lace agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 30,32 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:15][IS_GEM:blue jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 30,32 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:10][IS_GEM:blue jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 35,37 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:15][IS_GEM:lapis lazuli:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER_SMALL:100]
+--- 35,37 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:1:7:1][TILE:10][IS_GEM:lapis lazuli:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER_SMALL:100]
+***************
+*** 41,43 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:prase:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 41,43 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:prase:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 46,48 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:prase opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 46,48 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:prase opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 51,53 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:bloodstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 51,53 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:bloodstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 56,58 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:moss agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 56,58 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:moss agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 61,63 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:moss opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 61,63 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:moss opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 66,68 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:variscite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:10]
+--- 66,68 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:variscite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:10]
+***************
+*** 71,73 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:1][TILE:15][IS_GEM:chrysoprase:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 71,73 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:2:7:1][TILE:10][IS_GEM:chrysoprase:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 76,78 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:3:7:1][TILE:15][IS_GEM:chrysocolla:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MALACHITE:CLUSTER_SMALL:100]
+--- 76,78 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:3:7:1][TILE:10][IS_GEM:chrysocolla:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MALACHITE:CLUSTER_SMALL:100]
+***************
+*** 81,83 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:sard:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 81,83 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:sard:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 86,88 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:carnelian:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 86,88 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:carnelian:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 91,93 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:banded agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 91,93 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:banded agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 96,98 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:sardonyx:sardonyxes:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 96,98 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:sardonyx:sardonyxes:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 101,103 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:4:7:1][TILE:15][IS_GEM:cherry opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 101,103 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:4:7:1][TILE:10][IS_GEM:cherry opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 106,108 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:5:7:0][TILE:15][IS_GEM:lavender jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 106,108 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:5:7:0][TILE:10][IS_GEM:lavender jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 111,113 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:pink jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 111,113 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:pink jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 116,118 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:tube agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 116,118 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:tube agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 121,123 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:fire agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 121,123 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:fire agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 126,128 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:plume agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 126,128 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:plume agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 131,133 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:brown jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 131,133 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:brown jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 136,138 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:3][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:picture jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 136,138 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:3][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:picture jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 141,143 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:smoky quartz:smoky quartzes:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 141,143 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:smoky quartz:smoky quartzes:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 146,148 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:wax opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 146,148 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:wax opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 151,153 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:wood opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 151,153 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:wood opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 156,158 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:amber opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 156,158 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:amber opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 161,163 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:gold opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 161,163 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:gold opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 166,168 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:citrine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 166,168 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:citrine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 171,173 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:yellow jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 171,173 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:yellow jasper:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 176,178 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:tigereye:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 176,178 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:tigereye:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 181,183 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:tiger iron:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 181,183 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:tiger iron:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 186,188 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:sunstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:BASALT:CLUSTER_SMALL:100]
+--- 186,188 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:sunstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:BASALT:CLUSTER_SMALL:100]
+***************
+*** 192,194 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:resin opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 192,194 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:resin opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 197,199 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:pyrite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 197,199 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:pyrite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 202,204 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:clear tourmaline:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 202,204 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:clear tourmaline:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 210,212 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:gray chalcedony:gray chalcedonies:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 210,212 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:gray chalcedony:gray chalcedonies:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 216,218 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:dendritic agate:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 216,218 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:dendritic agate:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 222,224 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:shell opal:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 222,224 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:shell opal:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 228,230 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:bone opal:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 228,230 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:bone opal:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 234,236 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:white chalcedony:white chalcedonies:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 234,236 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:white chalcedony:white chalcedonies:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 239,241 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:fortification agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+--- 239,241 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:fortification agate:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:20]
+***************
+*** 244,246 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:milk quartz:milk quartzes:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 244,246 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:milk quartz:milk quartzes:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 249,251 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:moonstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 249,251 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:moonstone:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 254,256 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:white jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 254,256 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:2][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:white jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 259,261 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:jasper opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 259,261 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:jasper opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 264,266 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:pineapple opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 264,266 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:pineapple opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 269,271 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:onyx opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 269,271 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:onyx opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 274,276 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:milk opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 274,276 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:milk opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 279,281 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:pipe opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+--- 279,281 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:10][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:pipe opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:10]
+***************
+*** 284,286 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:aventurine:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:3]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 284,286 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:aventurine:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:3]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 289,291 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:turquoise:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:2]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+--- 289,291 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:turquoise:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:2]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+***************
+*** 296,298 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:rose quartz:rose quartzes:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:3]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 296,298 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:rose quartz:rose quartzes:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:3]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 301,303 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:rock crystal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][CRYSTAL_GLASSABLE][MATERIAL_VALUE:2]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 301,303 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:rock crystal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][CRYSTAL_GLASSABLE][MATERIAL_VALUE:2]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 308,310 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:black zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 308,310 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:black zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 314,316 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:black pyrope:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 314,316 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:black pyrope:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 321,323 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:0:7:1][TILE:15][IS_GEM:melanite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 321,323 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:0:7:1][TILE:10][IS_GEM:melanite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 326,328 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:25][DISPLAY_COLOR:1:7:0][TILE:15][IS_GEM:indigo tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 326,328 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:25][DISPLAY_COLOR:1:7:0][TILE:10][IS_GEM:indigo tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 333,335 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:1:7:0][TILE:15][IS_GEM:blue garnet:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 333,335 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:1:7:0][TILE:10][IS_GEM:blue garnet:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 340,342 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:tsavorite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 340,342 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:tsavorite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 345,347 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:green tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 345,347 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:green tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 352,354 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:demantoid:STP:OVERWRITE_SOLID]
+  green garnet found with chromium ores
+--- 352,354 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:30][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:demantoid:STP:OVERWRITE_SOLID]
+  green garnet found with chromium ores
+***************
+*** 358,360 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:0][TILE:15][IS_GEM:green zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 358,360 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:0][TILE:10][IS_GEM:green zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 364,366 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:15][IS_GEM:green jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 364,366 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:10][IS_GEM:green jade:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 369,371 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:15][IS_GEM:heliodor:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 369,371 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:10][IS_GEM:heliodor:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 376,378 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:15][IS_GEM:peridot:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
+--- 376,378 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:2:7:1][TILE:10][IS_GEM:peridot:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
+***************
+*** 381,383 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:red zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 381,383 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:red zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 387,389 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:red tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 387,389 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:red tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 394,396 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:red pyrope:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 394,396 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:red pyrope:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 400,402 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:almandine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 400,402 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:almandine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 407,409 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:15][IS_GEM:red grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 407,409 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:0][TILE:10][IS_GEM:red grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 412,414 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:1][TILE:15][IS_GEM:pink tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 412,414 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:1][TILE:10][IS_GEM:pink tourmaline:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 419,421 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:1][TILE:15][IS_GEM:red beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:1]
+--- 419,421 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:4:7:1][TILE:10][IS_GEM:red beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:1]
+***************
+*** 426,428 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:1][TILE:15][IS_GEM:fire opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 426,428 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:4:7:1][TILE:10][IS_GEM:fire opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 431,433 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:0][TILE:15][IS_GEM:rhodolite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 431,433 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:0][TILE:10][IS_GEM:rhodolite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 437,439 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:0][TILE:15][IS_GEM:purple spinel:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 437,439 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:0][TILE:10][IS_GEM:purple spinel:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 444,446 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:alexandrite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 444,446 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:alexandrite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 452,454 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:tanzanite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
+--- 452,454 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:tanzanite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
+***************
+*** 457,459 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:morganite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 457,459 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:morganite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 464,466 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:violet spessartine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 464,466 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:violet spessartine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 470,472 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:pink garnet:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 470,472 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:pink garnet:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 477,479 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:15][IS_GEM:kunzite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 477,479 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:5:7:1][TILE:10][IS_GEM:kunzite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 482,484 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:cinnamon grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 482,484 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:cinnamon grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 487,489 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:honey yellow beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 487,489 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:honey yellow beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 494,496 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:jelly opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 494,496 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:15][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:jelly opal:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 499,501 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:15][IS_GEM:brown zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 499,501 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:0][TILE:10][IS_GEM:brown zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 505,507 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:yellow zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 505,507 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:yellow zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 511,513 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:golden beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 511,513 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:golden beryl:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 518,520 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:yellow spessartine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 518,520 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:yellow spessartine:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 524,526 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:topaz:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 524,526 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:topaz:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 530,532 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:topazolite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 530,532 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:topazolite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 535,537 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:yellow grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+--- 535,537 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:yellow grossular:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+***************
+*** 540,542 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:15][IS_GEM:rubicelle:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 540,542 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:6:7:1][TILE:10][IS_GEM:rubicelle:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 547,549 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:clear garnet:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+--- 547,549 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:clear garnet:STP:OVERWRITE_SOLID]
+  [BASIC_COLOR:7:0]
+***************
+*** 554,556 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:goshenite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 554,556 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:goshenite:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 561,563 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:cat's eye:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 561,563 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:20][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:cat's eye:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 568,570 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:25][DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:clear zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 568,570 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [MATERIAL_VALUE:25][DISPLAY_COLOR:7:7:1][TILE:10][IS_GEM:clear zircon:STP:OVERWRITE_SOLID]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 574,576 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:amethyst:STP:OVERWRITE_SOLID][DISPLAY_COLOR:5:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+--- 574,576 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:amethyst:STP:OVERWRITE_SOLID][DISPLAY_COLOR:5:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:100]
+***************
+*** 579,581 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:aquamarine:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 579,581 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:aquamarine:STP:OVERWRITE_SOLID][DISPLAY_COLOR:3:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 586,588 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:red spinel:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:20]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+--- 586,588 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:red spinel:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:20]
+  [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
+***************
+*** 593,595 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:chrysoberyl:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 593,595 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:chrysoberyl:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 600,602 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:precious fire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 600,602 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:precious fire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 605,607 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:red flash opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 605,607 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:red flash opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 610,612 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:black opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:0:7:1][MATERIAL_VALUE:30]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 610,612 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:black opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:0:7:1][MATERIAL_VALUE:30]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 615,617 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:white opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 615,617 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:white opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 620,622 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:crystal opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 620,622 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:crystal opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 625,627 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:claro opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 625,627 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:claro opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 630,632 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:levin opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 630,632 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:levin opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 635,637 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:harlequin opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 635,637 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:harlequin opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 640,642 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:pinfire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 640,642 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:pinfire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 645,647 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:bandfire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+--- 645,647 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:bandfire opal:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:20]
+  [ENVIRONMENT:ALL_STONE:CLUSTER_SMALL:8]
+***************
+*** 650,652 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:light yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:30]
+  [SPEC_HEAT:409]
+--- 650,652 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:light yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:30]
+  [SPEC_HEAT:409]
+***************
+*** 662,664 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:faint yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:0][MATERIAL_VALUE:40]
+  [SPEC_HEAT:409]
+--- 662,664 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:faint yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:0][MATERIAL_VALUE:40]
+  [SPEC_HEAT:409]
+***************
+*** 672,674 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:emerald:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+--- 672,674 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:emerald:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+***************
+*** 679,681 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:ruby:rubies:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:100]
+--- 679,681 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:ruby:rubies:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:100]
+***************
+*** 684,686 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:sapphire:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:100]
+--- 684,686 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:sapphire:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:0][MATERIAL_VALUE:40]
+  [ENVIRONMENT_SPEC:BAUXITE:CLUSTER_SMALL:100]
+***************
+*** 691,693 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:clear diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 691,693 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:clear diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:7:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 701,703 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:red diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 701,703 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:red diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 711,713 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:green diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 711,713 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:green diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:2:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 721,723 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:blue diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 721,723 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:blue diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:0][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 731,733 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 731,733 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:yellow diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:6:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 741,743 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:black diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:0:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+--- 741,743 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:black diamond:STP:OVERWRITE_SOLID][DISPLAY_COLOR:0:7:1][MATERIAL_VALUE:60]
+  [SPEC_HEAT:409]
+***************
+*** 751,753 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:star sapphire:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:1][MATERIAL_VALUE:60]
+  [ENVIRONMENT_SPEC:SAPPHIRE:CLUSTER_ONE:1]
+--- 751,753 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:star sapphire:STP:OVERWRITE_SOLID][DISPLAY_COLOR:1:7:1][MATERIAL_VALUE:60]
+  [ENVIRONMENT_SPEC:SAPPHIRE:CLUSTER_ONE:1]
+***************
+*** 756,758 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:15][IS_GEM:star ruby:star rubies:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:60]
+  [ENVIRONMENT_SPEC:RUBY:CLUSTER_ONE:1]
+\ Kein Zeilenumbruch am Dateiende.
+--- 756,758 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [TILE:10][IS_GEM:star ruby:star rubies:OVERWRITE_SOLID][DISPLAY_COLOR:4:7:1][MATERIAL_VALUE:60]
+  [ENVIRONMENT_SPEC:RUBY:CLUSTER_ONE:1]
+\ Kein Zeilenumbruch am Dateiende.
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_layer.txt dfg3114/raw/objects/inorganic_stone_layer.txt
+*** df_linux/raw/objects/inorganic_stone_layer.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/inorganic_stone_layer.txt	2010-09-25 00:03:17.145724425 +0200
+***************
+*** 19,21 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:siltstone][DISPLAY_COLOR:6:7:0][TILE:'%']
+  [SEDIMENTARY]
+--- 19,21 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:siltstone][DISPLAY_COLOR:6:7:0][TILE:18]
+  [SEDIMENTARY]
+***************
+*** 25,27 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:mudstone][DISPLAY_COLOR:6:7:0][TILE:247]
+  [SEDIMENTARY]
+--- 25,27 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:mudstone][DISPLAY_COLOR:6:0:0][TILE:3]
+  [SEDIMENTARY]
+***************
+*** 43,45 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:rock salt][DISPLAY_COLOR:7:7:1][TILE:'#']
+  [SEDIMENTARY]
+--- 43,45 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:rock salt][DISPLAY_COLOR:7:7:1][TILE:23]
+  [SEDIMENTARY]
+***************
+*** 90,92 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:granite][DISPLAY_COLOR:7:0:0][TILE:178]
+  [IGNEOUS_INTRUSIVE]
+--- 90,92 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:granite][DISPLAY_COLOR:0:7:1][TILE:178]
+  [IGNEOUS_INTRUSIVE]
+***************
+*** 118,120 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:basalt][DISPLAY_COLOR:0:7:1][TILE:'#']
+  [IGNEOUS_EXTRUSIVE]
+--- 118,120 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:basalt][DISPLAY_COLOR:0:7:1][TILE:23]
+  [IGNEOUS_EXTRUSIVE]
+***************
+*** 158,160 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:slate][DISPLAY_COLOR:0:7:1][TILE:'%']
+  [METAMORPHIC]
+--- 158,160 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:slate][DISPLAY_COLOR:0:7:1][TILE:18]
+  [METAMORPHIC]
+***************
+*** 184,186 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:marble][DISPLAY_COLOR:7:7:1][TILE:178][REACTION_CLASS:FLUX]
+  [METAMORPHIC]
+--- 184,186 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:marble][DISPLAY_COLOR:7:7:1][TILE:5][REACTION_CLASS:FLUX]
+  [METAMORPHIC]
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_mineral.txt dfg3114/raw/objects/inorganic_stone_mineral.txt
+*** df_linux/raw/objects/inorganic_stone_mineral.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/inorganic_stone_mineral.txt	2010-09-25 00:03:17.146724483 +0200
+***************
+*** 6,8 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:hematite][DISPLAY_COLOR:4:7:0][TILE:156]
+  [ENVIRONMENT:SEDIMENTARY:VEIN:100]
+--- 6,8 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:hematite][DISPLAY_COLOR:4:7:0][TILE:5]
+  [ENVIRONMENT:SEDIMENTARY:VEIN:100]
+***************
+*** 18,20 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:limonite][DISPLAY_COLOR:6:7:1][TILE:156]
+  [ENVIRONMENT:SEDIMENTARY:VEIN:100]
+--- 18,20 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:limonite][DISPLAY_COLOR:6:7:1][TILE:5]
+  [ENVIRONMENT:SEDIMENTARY:VEIN:100]
+***************
+*** 28,30 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:garnierite][DISPLAY_COLOR:2:7:1][TILE:156]
+  [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
+--- 28,30 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:garnierite][DISPLAY_COLOR:2:7:1][TILE:5]
+  [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
+***************
+*** 47,49 ****
+  [DISPLAY_COLOR:6:7:1]
+! [TILE:156]
+  [MATERIAL_VALUE:30]
+--- 47,49 ----
+  [DISPLAY_COLOR:6:7:1]
+! [TILE:6]
+  [MATERIAL_VALUE:30]
+***************
+*** 87,89 ****
+  [DISPLAY_COLOR:7:7:1]
+! [TILE:156]
+  [MATERIAL_VALUE:10]
+--- 87,89 ----
+  [DISPLAY_COLOR:7:7:1]
+! [TILE:6]
+  [MATERIAL_VALUE:10]
+***************
+*** 127,129 ****
+  [DISPLAY_COLOR:6:7:0]
+! [TILE:156]
+  [MATERIAL_VALUE:2]
+--- 127,129 ----
+  [DISPLAY_COLOR:6:7:0]
+! [TILE:6]
+  [MATERIAL_VALUE:2]
+***************
+*** 159,161 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:malachite][DISPLAY_COLOR:2:7:0][TILE:156]
+  [ENVIRONMENT_SPEC:LIMESTONE:VEIN:100]
+--- 159,161 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:malachite][DISPLAY_COLOR:2:7:0][TILE:5]
+  [ENVIRONMENT_SPEC:LIMESTONE:VEIN:100]
+***************
+*** 170,172 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:galena][DISPLAY_COLOR:7:7:1][TILE:156]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
+--- 170,172 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:galena][DISPLAY_COLOR:7:7:1][TILE:5]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
+***************
+*** 186,188 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:sphalerite][DISPLAY_COLOR:0:7:1][TILE:156]
+  [ENVIRONMENT:METAMORPHIC:VEIN:100]
+--- 186,188 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:sphalerite][DISPLAY_COLOR:0:7:1][TILE:5]
+  [ENVIRONMENT:METAMORPHIC:VEIN:100]
+***************
+*** 197,199 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cassiterite][DISPLAY_COLOR:6:7:0][TILE:156]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+--- 197,199 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cassiterite][DISPLAY_COLOR:6:7:0][TILE:5]
+  [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
+***************
+*** 241,243 ****
+  [DISPLAY_COLOR:7:7:1]
+! [TILE:156]
+  [MATERIAL_VALUE:40]
+--- 241,243 ----
+  [DISPLAY_COLOR:7:7:1]
+! [TILE:6]
+  [MATERIAL_VALUE:40]
+***************
+*** 274,276 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cinnabar][DISPLAY_COLOR:4:7:1][TILE:156]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
+--- 274,276 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cinnabar][DISPLAY_COLOR:4:7:1][TILE:5]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
+***************
+*** 284,286 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cobaltite][DISPLAY_COLOR:1:7:1][TILE:156]
+  [ENVIRONMENT:IGNEOUS_ALL:VEIN:100]
+--- 284,286 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:cobaltite][DISPLAY_COLOR:1:7:1][TILE:5]
+  [ENVIRONMENT:IGNEOUS_ALL:VEIN:100]
+***************
+*** 293,295 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:tetrahedrite][DISPLAY_COLOR:0:7:1][TILE:156]
+  [ENVIRONMENT:ALL_STONE:VEIN:100]
+--- 293,295 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:tetrahedrite][DISPLAY_COLOR:0:7:1][TILE:5]
+  [ENVIRONMENT:ALL_STONE:VEIN:100]
+***************
+*** 304,306 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:horn silver][DISPLAY_COLOR:7:7:1][TILE:156]
+  [ENVIRONMENT_SPEC:NATIVE_SILVER:CLUSTER_SMALL:100]
+--- 304,306 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:horn silver][DISPLAY_COLOR:7:7:1][TILE:6]
+  [ENVIRONMENT_SPEC:NATIVE_SILVER:CLUSTER_SMALL:100]
+***************
+*** 316,318 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:gypsum][DISPLAY_COLOR:6:7:1][TILE:'#']
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+--- 316,318 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:gypsum][DISPLAY_COLOR:6:0:1][TILE:18]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+***************
+*** 339,341 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:puddingstone][DISPLAY_COLOR:6:7:0][TILE:233]
+  [ENVIRONMENT_SPEC:CONGLOMERATE:CLUSTER:100][AQUIFER]
+--- 339,341 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:puddingstone][DISPLAY_COLOR:6:7:0][TILE:13]
+  [ENVIRONMENT_SPEC:CONGLOMERATE:CLUSTER:100][AQUIFER]
+***************
+*** 345,347 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:petrified wood][DISPLAY_COLOR:4:7:1][TILE:'%']
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+--- 345,347 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:petrified wood][DISPLAY_COLOR:4:7:1][TILE:18]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
+***************
+*** 369,371 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:brimstone][DISPLAY_COLOR:6:7:1][TILE:'%']
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+--- 369,371 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:brimstone][DISPLAY_COLOR:6:7:1][TILE:18]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+***************
+*** 380,382 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:kimberlite][DISPLAY_COLOR:1:7:0][TILE:'%']
+  [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
+--- 380,382 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:kimberlite][DISPLAY_COLOR:1:7:0][TILE:18]
+  [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
+***************
+*** 387,389 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:bismuthinite][DISPLAY_COLOR:7:7:1][TILE:'%']
+  [BASIC_COLOR:7:0]
+--- 387,389 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:bismuthinite][DISPLAY_COLOR:7:7:1][TILE:18]
+  [BASIC_COLOR:7:0]
+***************
+*** 398,400 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:realgar][DISPLAY_COLOR:4:7:1][TILE:'%']
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+--- 398,400 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:realgar][DISPLAY_COLOR:4:7:1][TILE:18]
+  [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+***************
+*** 416,418 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:stibnite][DISPLAY_COLOR:7:7:1][TILE:'%']
+  [BASIC_COLOR:7:0]
+--- 416,418 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:stibnite][DISPLAY_COLOR:7:7:1][TILE:18]
+  [BASIC_COLOR:7:0]
+***************
+*** 424,426 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:marcasite][DISPLAY_COLOR:7:7:1][TILE:'%']
+  [ENVIRONMENT_SPEC:KAOLINITE:CLUSTER_SMALL:100]
+--- 424,426 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:marcasite][DISPLAY_COLOR:7:7:1][TILE:18]
+  [ENVIRONMENT_SPEC:KAOLINITE:CLUSTER_SMALL:100]
+***************
+*** 473,475 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:magnetite][DISPLAY_COLOR:0:7:1][TILE:'~']
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+--- 473,475 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:magnetite][DISPLAY_COLOR:0:7:1][TILE:5]
+  [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+***************
+*** 496,498 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:pyrolusite][DISPLAY_COLOR:0:7:1][TILE:'%']
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+--- 496,498 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:pyrolusite][DISPLAY_COLOR:0:7:1][TILE:18]
+  [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
+***************
+*** 570,572 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:olivine][DISPLAY_COLOR:2:7:0][TILE:'%']
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER:100]
+--- 570,572 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:olivine][DISPLAY_COLOR:2:7:0][TILE:18]
+  [ENVIRONMENT_SPEC:GABBRO:CLUSTER:100]
+***************
+*** 593,595 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:serpentine][DISPLAY_COLOR:2:7:0][TILE:247]
+  [ENVIRONMENT_SPEC:OLIVINE:CLUSTER_SMALL:100]
+--- 593,595 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:serpentine][DISPLAY_COLOR:2:7:0][TILE:'~']
+  [ENVIRONMENT_SPEC:OLIVINE:CLUSTER_SMALL:100]
+***************
+*** 601,603 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:orthoclase][DISPLAY_COLOR:6:7:1][TILE:'%']
+  [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER:100]
+--- 601,603 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:orthoclase][DISPLAY_COLOR:6:7:1][TILE:29]
+  [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER:100]
+***************
+*** 610,612 ****
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:microcline][DISPLAY_COLOR:3:7:1][TILE:'%']
+  [ENVIRONMENT:ALL_STONE:CLUSTER:100]
+--- 610,612 ----
+  [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+! [STATE_NAME_ADJ:ALL_SOLID:microcline][DISPLAY_COLOR:3:7:1][TILE:18]
+  [ENVIRONMENT:ALL_STONE:CLUSTER:100]
+***************
+*** 702,704 ****
+  [DISPLAY_COLOR:3:7:1]
+! [TILE:156]
+  [MATERIAL_VALUE:250]
+--- 702,704 ----
+  [DISPLAY_COLOR:3:7:1]
+! [TILE:6]
+  [MATERIAL_VALUE:250]
+Nur in dfg3114/raw/objects: inorganic_stone_mineral.txt~.
+Nur in dfg3114/raw/objects: inorganic_stone_mineral.txt.orig.
+diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/plant_standard.txt dfg3114/raw/objects/plant_standard.txt
+*** df_linux/raw/objects/plant_standard.txt	2010-09-23 16:35:46.000000000 +0200
+--- dfg3114/raw/objects/plant_standard.txt	2010-09-25 00:03:17.144724577 +0200
+***************
+*** 21,23 ****
+  
+! 	[PICKED_TILE:6][PICKED_COLOR:5:0:0]
+  	[GROWDUR:300][VALUE:2]
+--- 21,23 ----
+  
+! 	[PICKED_TILE:133][PICKED_COLOR:5:0:0]
+  	[GROWDUR:300][VALUE:2]
+***************
+*** 53,58 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:5:0:0]
+! 	[DEAD_SHRUB_COLOR:0:0:1]
+  
+--- 53,58 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:133]
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:5:0:0]
+! 	[DEAD_SHRUB_COLOR:6:0:0]
+  
+***************
+*** 90,95 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:7:0:0]
+! 	[DEAD_SHRUB_COLOR:0:0:1]
+  
+--- 90,95 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:231]
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:7:0:0]
+! 	[DEAD_SHRUB_COLOR:6:0:0]
+  
+***************
+*** 134,139 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:7:0:1]
+! 	[DEAD_SHRUB_COLOR:0:0:1]
+  
+--- 134,139 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:231]
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:7:0:1]
+! 	[DEAD_SHRUB_COLOR:6:0:0]
+  
+***************
+*** 145,147 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:232][PICKED_COLOR:4:0:1]
+  	[GROWDUR:500][VALUE:2]
+--- 145,147 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:147][PICKED_COLOR:4:0:1]
+  	[GROWDUR:500][VALUE:2]
+***************
+*** 190,195 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:4:0:1]
+! 	[DEAD_SHRUB_COLOR:0:0:1]
+  
+--- 190,195 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:147]
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:4:0:1]
+! 	[DEAD_SHRUB_COLOR:6:0:0]
+  
+***************
+*** 201,203 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:5][PICKED_COLOR:7:0:0]
+  	[GROWDUR:500][VALUE:2]
+--- 201,203 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:'"'][PICKED_COLOR:7:0:0]
+  	[GROWDUR:500][VALUE:2]
+***************
+*** 220,225 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:7:0:0]
+! 	[DEAD_SHRUB_COLOR:0:0:1]
+  
+--- 220,225 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:'"']
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:7:0:0]
+! 	[DEAD_SHRUB_COLOR:6:0:0]
+  
+***************
+*** 258,260 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:232][PICKED_COLOR:6:0:0]
+  	[DRY][BIOME:ANY_WETLAND]
+--- 258,260 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:147][PICKED_COLOR:6:0:0]
+  	[DRY][BIOME:ANY_WETLAND]
+***************
+*** 281,283 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:232][PICKED_COLOR:0:0:1]
+  	[WET][BIOME:ANY_WETLAND]
+--- 281,283 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:147][PICKED_COLOR:0:0:1]
+  	[WET][BIOME:ANY_WETLAND]
+***************
+*** 315,317 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:58][PICKED_COLOR:2:0:0]
+  	[DRY][BIOME:NOT_FREEZING]
+--- 315,317 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:136][PICKED_COLOR:2:0:0]
+  	[DRY][BIOME:NOT_FREEZING]
+***************
+*** 345,347 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:58][PICKED_COLOR:4:0:0]
+  	[DRY][BIOME:NOT_FREEZING]
+--- 345,347 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:136][PICKED_COLOR:4:0:0]
+  	[DRY][BIOME:NOT_FREEZING]
+***************
+*** 412,414 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:152][PICKED_COLOR:2:0:1]
+  	[DRY][BIOME:GRASSLAND_TEMPERATE]
+--- 412,414 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:130][PICKED_COLOR:2:0:1]
+  	[DRY][BIOME:GRASSLAND_TEMPERATE]
+***************
+*** 467,469 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:58][PICKED_COLOR:7:0:0]
+  	[WET][BIOME:NOT_FREEZING]
+--- 467,469 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:136][PICKED_COLOR:7:0:0]
+  	[WET][BIOME:NOT_FREEZING]
+***************
+*** 524,526 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:3][PICKED_COLOR:1:0:1]
+  	[GROWDUR:500][VALUE:2]
+--- 524,526 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:144][PICKED_COLOR:1:0:1]
+  	[GROWDUR:500][VALUE:2]
+***************
+*** 546,549 ****
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:58]
+! 	[DEAD_SHRUB_TILE:58]
+  	[SHRUB_COLOR:1:0:1]
+--- 546,549 ----
+  	[UNDERGROUND_DEPTH:1:3]
+! 	[SHRUB_TILE:144]
+! 	[DEAD_SHRUB_TILE:169]
+  	[SHRUB_COLOR:1:0:1]
+***************
+*** 643,645 ****
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:58][PICKED_COLOR:6:0:1]
+  	[WET][GOOD][BIOME:NOT_FREEZING]
+--- 643,645 ----
+  	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+! 	[PICKED_TILE:136][PICKED_COLOR:6:0:1]
+  	[WET][GOOD][BIOME:NOT_FREEZING]
+***************
+*** 708,710 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:roots]
+--- 708,710 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:138]
+  	[PREFSTRING:roots]
+***************
+*** 722,724 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:198]
+  	[PREFSTRING:amazing arms]
+--- 722,724 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:137]
+  	[PREFSTRING:amazing arms]
+***************
+*** 735,737 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:24]
+  	[PREFSTRING:cones]
+--- 735,737 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:141]
+  	[PREFSTRING:cones]
+***************
+*** 753,755 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:23]
+  	[PREFSTRING:majesty]
+--- 753,755 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:142]
+  	[PREFSTRING:majesty]
+***************
+*** 770,772 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:acorns]
+--- 770,772 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:138]
+  	[PREFSTRING:acorns]
+***************
+*** 786,788 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:loose inflorescences]
+--- 786,788 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:134]
+  	[PREFSTRING:loose inflorescences]
+***************
+*** 801,803 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:thorns]
+--- 801,803 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:142]
+  	[PREFSTRING:thorns]
+***************
+*** 818,820 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:buttresses]
+--- 818,820 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:buttresses]
+***************
+*** 833,835 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:autumn coloration]
+--- 833,835 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:autumn coloration]
+***************
+*** 851,853 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:244]
+  	[PREFSTRING:sad appearance]
+--- 851,853 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:129]
+  	[PREFSTRING:sad appearance]
+***************
+*** 877,879 ****
+  		[DISPLAY_COLOR:7:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:great size]
+--- 877,879 ----
+  		[DISPLAY_COLOR:7:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:133]
+  	[PREFSTRING:great size]
+***************
+*** 898,900 ****
+  		[DISPLAY_COLOR:0:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:gloomy appeal]
+--- 898,900 ----
+  		[DISPLAY_COLOR:0:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:133]
+  	[PREFSTRING:gloomy appeal]
+***************
+*** 920,922 ****
+  		[MAT_FIXED_TEMP:10000]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:coldness to the touch]
+--- 920,922 ----
+  		[MAT_FIXED_TEMP:10000]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:133]
+  	[PREFSTRING:coldness to the touch]
+***************
+*** 941,943 ****
+  		[DISPLAY_COLOR:4:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:stunning color]
+--- 941,943 ----
+  		[DISPLAY_COLOR:4:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:133]
+  	[PREFSTRING:stunning color]
+***************
+*** 962,964 ****
+  		[DISPLAY_COLOR:6:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:fine grain]
+--- 962,964 ----
+  		[DISPLAY_COLOR:6:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:133]
+  	[PREFSTRING:fine grain]
+***************
+*** 983,985 ****
+  		[DISPLAY_COLOR:5:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:179]
+  	[PREFSTRING:curving trunk]
+--- 983,985 ----
+  		[DISPLAY_COLOR:5:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:144]
+  	[PREFSTRING:curving trunk]
+***************
+*** 1004,1006 ****
+  		[DISPLAY_COLOR:3:0:0]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:raining spores]
+--- 1004,1006 ----
+  		[DISPLAY_COLOR:3:0:0]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:raining spores]
+***************
+*** 1026,1029 ****
+  	[TREE:LOCAL_PLANT_MAT:WOOD]
+! 	[TREE_TILE:181]
+! 	[DEAD_TREE_TILE:181]
+  	[PREFSTRING:sickening appearance]
+--- 1026,1029 ----
+  	[TREE:LOCAL_PLANT_MAT:WOOD]
+! 	[TREE_TILE:132]
+! 	[DEAD_TREE_TILE:132]
+  	[PREFSTRING:sickening appearance]
+***************
+*** 1049,1051 ****
+  		[DISPLAY_COLOR:5:0:0]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:180]
+  	[TREE_COLOR:5:0:0]
+--- 1049,1051 ----
+  		[DISPLAY_COLOR:5:0:0]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:132]
+  	[TREE_COLOR:5:0:0]
+***************
+*** 1067,1069 ****
+  		[DISPLAY_COLOR:7:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[TREE_COLOR:7:0:1]
+--- 1067,1069 ----
+  		[DISPLAY_COLOR:7:0:1]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:138]
+  	[TREE_COLOR:7:0:1]
+***************
+*** 1084,1086 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:20]
+  	[PREFSTRING:magnificence]
+--- 1084,1086 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:134]
+  	[PREFSTRING:magnificence]
+***************
+*** 1100,1102 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:24]
+  	[PREFSTRING:cones]
+--- 1100,1102 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:141]
+  	[PREFSTRING:cones]
+***************
+*** 1118,1120 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:smelly catkins]
+--- 1118,1120 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:smelly catkins]
+***************
+*** 1137,1139 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:catkins]
+--- 1137,1139 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:catkins]
+***************
+*** 1154,1156 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:5]
+  	[PREFSTRING:catkins]
+--- 1154,1156 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:134]
+  	[PREFSTRING:catkins]
+***************
+*** 1172,1174 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:6]
+  	[PREFSTRING:flying keys]
+--- 1172,1174 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:134]
+  	[PREFSTRING:flying keys]
+***************
+*** 1188,1190 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:nuts]
+--- 1188,1190 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:138]
+  	[PREFSTRING:nuts]
+***************
+*** 1202,1204 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:sweet-smelling flowers]
+--- 1202,1204 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:sweet-smelling flowers]
+***************
+*** 1216,1218 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:branch shedding]
+--- 1216,1218 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:139]
+  	[PREFSTRING:branch shedding]
+***************
+*** 1230,1232 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:flowers]
+--- 1230,1232 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:138]
+  	[PREFSTRING:flowers]
+***************
+*** 1244,1246 ****
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:226]
+  	[PREFSTRING:leaves]
+--- 1244,1246 ----
+  		[PREFIX:NONE]
+! 	[TREE:LOCAL_PLANT_MAT:WOOD][TREE_TILE:131]
+  	[PREFSTRING:leaves]
