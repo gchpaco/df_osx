@@ -1,0 +1,450 @@
+Hmm...  Looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/colors.txt dfg3114/data/init/colors.txt
+|*** df_linux/data/init/colors.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/data/init/colors.txt	2010-09-25 00:03:17.227727040 +0200
+--------------------------
+Patching file data/init/colors.txt using Plan A...
+Hunk #1 succeeded at 5.
+Hunk #2 succeeded at 15.
+Hunk #3 succeeded at 35.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/d_init.txt dfg3114/data/init/d_init.txt
+|*** df_linux/data/init/d_init.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/data/init/d_init.txt	2010-09-25 00:03:17.227727040 +0200
+--------------------------
+Patching file data/init/d_init.txt using Plan A...
+Hunk #1 succeeded at 16.
+Hunk #2 succeeded at 79 (offset 2 lines).
+Hunk #3 succeeded at 99 (offset 2 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|Nur in dfg3114/data/init: embark_profiles.txt.
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/data/init/init.txt dfg3114/data/init/init.txt
+|*** df_linux/data/init/init.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/data/init/init.txt	2010-09-25 00:03:17.227727040 +0200
+--------------------------
+Patching file data/init/init.txt using Plan A...
+Hunk #1 succeeded at 29.
+Hunk #2 succeeded at 38.
+Hunk #3 succeeded at 47.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_amphibians.txt dfg3114/raw/objects/creature_amphibians.txt
+|*** df_linux/raw/objects/creature_amphibians.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_amphibians.txt	2010-09-25 00:03:17.144724577 +0200
+--------------------------
+Patching file raw/objects/creature_amphibians.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_annelids.txt dfg3114/raw/objects/creature_annelids.txt
+|*** df_linux/raw/objects/creature_annelids.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_annelids.txt	2010-09-25 00:03:17.135599813 +0200
+--------------------------
+Patching file raw/objects/creature_annelids.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_birds.txt dfg3114/raw/objects/creature_birds.txt
+|*** df_linux/raw/objects/creature_birds.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_birds.txt	2010-09-25 00:03:17.139600252 +0200
+--------------------------
+Patching file raw/objects/creature_birds.txt using Plan A...
+Hunk #1 succeeded at 9.
+Hunk #2 succeeded at 106 (offset 8 lines).
+Hunk #3 succeeded at 202 (offset 16 lines).
+Hunk #4 succeeded at 295 (offset 24 lines).
+Hunk #5 succeeded at 387 (offset 32 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_insects.txt dfg3114/raw/objects/creature_insects.txt
+|*** df_linux/raw/objects/creature_insects.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_insects.txt	2010-09-25 00:03:17.138602988 +0200
+--------------------------
+Patching file raw/objects/creature_insects.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 62 (offset 1 line).
+Hunk #3 succeeded at 115 (offset 1 line).
+Hunk #4 succeeded at 236 (offset 3 lines).
+Hunk #5 succeeded at 289 (offset 3 lines).
+Hunk #6 succeeded at 342 (offset 3 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_next_underground.txt dfg3114/raw/objects/creature_next_underground.txt
+|*** df_linux/raw/objects/creature_next_underground.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_next_underground.txt	2010-09-25 00:03:17.136599591 +0200
+--------------------------
+Patching file raw/objects/creature_next_underground.txt using Plan A...
+Hunk #1 succeeded at 9.
+Hunk #2 succeeded at 410 (offset 2 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_other.txt dfg3114/raw/objects/creature_other.txt
+|*** df_linux/raw/objects/creature_other.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_other.txt	2010-09-25 00:03:17.145724425 +0200
+--------------------------
+Patching file raw/objects/creature_other.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 84.
+Hunk #3 succeeded at 155.
+Hunk #4 succeeded at 294.
+Hunk #5 succeeded at 370 (offset 8 lines).
+Hunk #6 succeeded at 411 (offset 8 lines).
+Hunk #7 succeeded at 486 (offset 16 lines).
+Hunk #8 succeeded at 538 (offset 16 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_reptiles.txt dfg3114/raw/objects/creature_reptiles.txt
+|*** df_linux/raw/objects/creature_reptiles.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_reptiles.txt	2010-09-25 00:03:17.143599574 +0200
+--------------------------
+Patching file raw/objects/creature_reptiles.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 76.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_mammals.txt dfg3114/raw/objects/creature_small_mammals.txt
+|*** df_linux/raw/objects/creature_small_mammals.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_small_mammals.txt	2010-09-25 00:03:17.139600252 +0200
+--------------------------
+Patching file raw/objects/creature_small_mammals.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 90.
+Hunk #3 succeeded at 167.
+Hunk #4 succeeded at 244.
+Hunk #5 succeeded at 321.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_ocean.txt dfg3114/raw/objects/creature_small_ocean.txt
+|*** df_linux/raw/objects/creature_small_ocean.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_small_ocean.txt	2010-09-25 00:03:17.143599574 +0200
+--------------------------
+Patching file raw/objects/creature_small_ocean.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 58.
+Hunk #3 succeeded at 106.
+Hunk #4 succeeded at 177.
+Hunk #5 succeeded at 244.
+Hunk #6 succeeded at 310.
+Hunk #7 succeeded at 377.
+Hunk #8 succeeded at 443.
+Hunk #9 succeeded at 508.
+Hunk #10 succeeded at 575.
+Hunk #11 succeeded at 644.
+Hunk #12 succeeded at 716.
+Hunk #13 succeeded at 784.
+Hunk #14 succeeded at 855.
+Hunk #15 succeeded at 924.
+Hunk #16 succeeded at 987.
+Hunk #17 succeeded at 1055.
+Hunk #18 succeeded at 1117.
+Hunk #19 succeeded at 1185.
+Hunk #20 succeeded at 1252.
+Hunk #21 succeeded at 1321.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_small_riverlake.txt dfg3114/raw/objects/creature_small_riverlake.txt
+|*** df_linux/raw/objects/creature_small_riverlake.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_small_riverlake.txt	2010-09-25 00:03:17.143599574 +0200
+--------------------------
+Patching file raw/objects/creature_small_riverlake.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 84.
+Hunk #3 succeeded at 152.
+Hunk #4 succeeded at 220 (offset 1 line).
+Hunk #5 succeeded at 288 (offset 2 lines).
+Hunk #6 succeeded at 356 (offset 3 lines).
+Hunk #7 succeeded at 424 (offset 3 lines).
+Hunk #8 succeeded at 492 (offset 3 lines).
+Hunk #9 succeeded at 560 (offset 3 lines).
+Hunk #10 succeeded at 632 (offset 3 lines).
+Hunk #11 succeeded at 704 (offset 3 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_standard.txt dfg3114/raw/objects/creature_standard.txt
+|*** df_linux/raw/objects/creature_standard.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_standard.txt	2010-09-25 00:03:17.146724483 +0200
+--------------------------
+Patching file raw/objects/creature_standard.txt using Plan A...
+Hunk #1 succeeded at 3386 (offset 216 lines).
+Hunk #2 succeeded at 3571 (offset 227 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/creature_subterranean.txt dfg3114/raw/objects/creature_subterranean.txt
+|*** df_linux/raw/objects/creature_subterranean.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/creature_subterranean.txt	2010-09-25 00:03:17.138602988 +0200
+--------------------------
+Patching file raw/objects/creature_subterranean.txt using Plan A...
+Hunk #1 succeeded at 978 (offset 18 lines).
+Hunk #2 succeeded at 1053 (offset 18 lines).
+Hunk #3 succeeded at 1141 (offset 18 lines).
+Hunk #4 succeeded at 1191 (offset 18 lines).
+Hunk #5 succeeded at 1231 (offset 17 lines).
+Hunk #6 succeeded at 1315 (offset 17 lines).
+Hunk #7 succeeded at 1421 (offset 16 lines).
+Hunk #8 succeeded at 1732 (offset 16 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_gem.txt dfg3114/raw/objects/inorganic_stone_gem.txt
+|*** df_linux/raw/objects/inorganic_stone_gem.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/inorganic_stone_gem.txt	2010-09-25 00:03:17.145724425 +0200
+--------------------------
+Patching file raw/objects/inorganic_stone_gem.txt using Plan A...
+Hunk #1 succeeded at 8.
+Hunk #2 succeeded at 13.
+Hunk #3 succeeded at 18.
+Hunk #4 succeeded at 25.
+Hunk #5 succeeded at 30.
+Hunk #6 succeeded at 35.
+Hunk #7 succeeded at 41.
+Hunk #8 succeeded at 46.
+Hunk #9 succeeded at 51.
+Hunk #10 succeeded at 56.
+Hunk #11 succeeded at 61.
+Hunk #12 succeeded at 66.
+Hunk #13 succeeded at 71.
+Hunk #14 succeeded at 76.
+Hunk #15 succeeded at 81.
+Hunk #16 succeeded at 86.
+Hunk #17 succeeded at 91.
+Hunk #18 succeeded at 96.
+Hunk #19 succeeded at 101.
+Hunk #20 succeeded at 106.
+Hunk #21 succeeded at 111.
+Hunk #22 succeeded at 116.
+Hunk #23 succeeded at 121.
+Hunk #24 succeeded at 126.
+Hunk #25 succeeded at 131.
+Hunk #26 succeeded at 136.
+Hunk #27 succeeded at 141.
+Hunk #28 succeeded at 146.
+Hunk #29 succeeded at 151.
+Hunk #30 succeeded at 156.
+Hunk #31 succeeded at 161.
+Hunk #32 succeeded at 166.
+Hunk #33 succeeded at 171.
+Hunk #34 succeeded at 176.
+Hunk #35 succeeded at 181.
+Hunk #36 succeeded at 186.
+Hunk #37 succeeded at 192.
+Hunk #38 succeeded at 197.
+Hunk #39 succeeded at 202.
+Hunk #40 succeeded at 210.
+Hunk #41 succeeded at 216.
+Hunk #42 succeeded at 222.
+Hunk #43 succeeded at 228.
+Hunk #44 succeeded at 234.
+Hunk #45 succeeded at 239.
+Hunk #46 succeeded at 244.
+Hunk #47 succeeded at 249.
+Hunk #48 succeeded at 254.
+Hunk #49 succeeded at 259.
+Hunk #50 succeeded at 264.
+Hunk #51 succeeded at 269.
+Hunk #52 succeeded at 274.
+Hunk #53 succeeded at 279.
+Hunk #54 succeeded at 284.
+Hunk #55 succeeded at 289.
+Hunk #56 succeeded at 296.
+Hunk #57 succeeded at 301.
+Hunk #58 succeeded at 308.
+Hunk #59 succeeded at 314.
+Hunk #60 succeeded at 321.
+Hunk #61 succeeded at 326.
+Hunk #62 succeeded at 333.
+Hunk #63 succeeded at 340.
+Hunk #64 succeeded at 345.
+Hunk #65 succeeded at 352.
+Hunk #66 succeeded at 358.
+Hunk #67 succeeded at 364.
+Hunk #68 succeeded at 369.
+Hunk #69 succeeded at 376.
+Hunk #70 succeeded at 381.
+Hunk #71 succeeded at 387.
+Hunk #72 succeeded at 394.
+Hunk #73 succeeded at 400.
+Hunk #74 succeeded at 407.
+Hunk #75 succeeded at 412.
+Hunk #76 succeeded at 419.
+Hunk #77 succeeded at 426.
+Hunk #78 succeeded at 431.
+Hunk #79 succeeded at 437.
+Hunk #80 succeeded at 444.
+Hunk #81 succeeded at 452.
+Hunk #82 succeeded at 457.
+Hunk #83 succeeded at 464.
+Hunk #84 succeeded at 470.
+Hunk #85 succeeded at 477.
+Hunk #86 succeeded at 482.
+Hunk #87 succeeded at 487.
+Hunk #88 succeeded at 494.
+Hunk #89 succeeded at 499.
+Hunk #90 succeeded at 505.
+Hunk #91 succeeded at 511.
+Hunk #92 succeeded at 518.
+Hunk #93 succeeded at 524.
+Hunk #94 succeeded at 530.
+Hunk #95 succeeded at 535.
+Hunk #96 succeeded at 540.
+Hunk #97 succeeded at 547.
+Hunk #98 succeeded at 554.
+Hunk #99 succeeded at 561.
+Hunk #100 succeeded at 568.
+Hunk #101 succeeded at 574.
+Hunk #102 succeeded at 579.
+Hunk #103 succeeded at 586.
+Hunk #104 succeeded at 593.
+Hunk #105 succeeded at 600.
+Hunk #106 succeeded at 605.
+Hunk #107 succeeded at 610.
+Hunk #108 succeeded at 615.
+Hunk #109 succeeded at 620.
+Hunk #110 succeeded at 625.
+Hunk #111 succeeded at 630.
+Hunk #112 succeeded at 635.
+Hunk #113 succeeded at 640.
+Hunk #114 succeeded at 645.
+Hunk #115 succeeded at 650.
+Hunk #116 succeeded at 662.
+Hunk #117 succeeded at 672.
+Hunk #118 succeeded at 679.
+Hunk #119 succeeded at 684.
+Hunk #120 succeeded at 691.
+Hunk #121 succeeded at 701.
+Hunk #122 succeeded at 711.
+Hunk #123 succeeded at 721.
+Hunk #124 succeeded at 731.
+Hunk #125 succeeded at 741.
+Hunk #126 succeeded at 751.
+Hunk #127 succeeded at 756.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_layer.txt dfg3114/raw/objects/inorganic_stone_layer.txt
+|*** df_linux/raw/objects/inorganic_stone_layer.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/inorganic_stone_layer.txt	2010-09-25 00:03:17.145724425 +0200
+--------------------------
+Patching file raw/objects/inorganic_stone_layer.txt using Plan A...
+Hunk #1 succeeded at 19.
+Hunk #2 succeeded at 25.
+Hunk #3 succeeded at 43.
+Hunk #4 succeeded at 90.
+Hunk #5 succeeded at 118.
+Hunk #6 succeeded at 158.
+Hunk #7 succeeded at 184.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/inorganic_stone_mineral.txt dfg3114/raw/objects/inorganic_stone_mineral.txt
+|*** df_linux/raw/objects/inorganic_stone_mineral.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/inorganic_stone_mineral.txt	2010-09-25 00:03:17.146724483 +0200
+--------------------------
+Patching file raw/objects/inorganic_stone_mineral.txt using Plan A...
+Hunk #1 succeeded at 6.
+Hunk #2 succeeded at 18.
+Hunk #3 succeeded at 28.
+Hunk #4 succeeded at 47.
+Hunk #5 succeeded at 87.
+Hunk #6 succeeded at 127.
+Hunk #7 succeeded at 159.
+Hunk #8 succeeded at 170.
+Hunk #9 succeeded at 186.
+Hunk #10 succeeded at 197.
+Hunk #11 succeeded at 242 (offset 1 line).
+Hunk #12 succeeded at 275 (offset 1 line).
+Hunk #13 succeeded at 285 (offset 1 line).
+Hunk #14 succeeded at 294 (offset 1 line).
+Hunk #15 succeeded at 305 (offset 1 line).
+Hunk #16 succeeded at 317 (offset 1 line).
+Hunk #17 succeeded at 340 (offset 1 line).
+Hunk #18 succeeded at 346 (offset 1 line).
+Hunk #19 succeeded at 370 (offset 1 line).
+Hunk #20 succeeded at 381 (offset 1 line).
+Hunk #21 succeeded at 388 (offset 1 line).
+Hunk #22 succeeded at 399 (offset 1 line).
+Hunk #23 succeeded at 417 (offset 1 line).
+Hunk #24 succeeded at 425 (offset 1 line).
+Hunk #25 succeeded at 474 (offset 1 line).
+Hunk #26 succeeded at 497 (offset 1 line).
+Hunk #27 succeeded at 571 (offset 1 line).
+Hunk #28 succeeded at 594 (offset 1 line).
+Hunk #29 succeeded at 602 (offset 1 line).
+Hunk #30 succeeded at 611 (offset 1 line).
+Hunk #31 succeeded at 703 (offset 1 line).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|Nur in dfg3114/raw/objects: inorganic_stone_mineral.txt~.
+|Nur in dfg3114/raw/objects: inorganic_stone_mineral.txt.orig.
+|diff -r -C1 '--exclude=language*' -w -B -E df_linux/raw/objects/plant_standard.txt dfg3114/raw/objects/plant_standard.txt
+|*** df_linux/raw/objects/plant_standard.txt	2010-09-23 16:35:46.000000000 +0200
+|--- dfg3114/raw/objects/plant_standard.txt	2010-09-25 00:03:17.144724577 +0200
+--------------------------
+Patching file raw/objects/plant_standard.txt using Plan A...
+Hunk #1 succeeded at 21.
+Hunk #2 succeeded at 53.
+Hunk #3 succeeded at 90.
+Hunk #4 succeeded at 134.
+Hunk #5 succeeded at 145.
+Hunk #6 succeeded at 190.
+Hunk #7 succeeded at 201.
+Hunk #8 succeeded at 240 (offset 20 lines).
+Hunk #9 succeeded at 278 (offset 20 lines).
+Hunk #10 succeeded at 301 (offset 20 lines).
+Hunk #11 succeeded at 335 (offset 20 lines).
+Hunk #12 succeeded at 365 (offset 20 lines).
+Hunk #13 succeeded at 432 (offset 20 lines).
+Hunk #14 succeeded at 487 (offset 20 lines).
+Hunk #15 succeeded at 544 (offset 20 lines).
+Hunk #16 succeeded at 566 (offset 20 lines).
+Hunk #17 succeeded at 663 (offset 20 lines).
+Hunk #18 succeeded at 728 (offset 20 lines).
+Hunk #19 succeeded at 742 (offset 20 lines).
+Hunk #20 succeeded at 755 (offset 20 lines).
+Hunk #21 succeeded at 773 (offset 20 lines).
+Hunk #22 succeeded at 790 (offset 20 lines).
+Hunk #23 succeeded at 806 (offset 20 lines).
+Hunk #24 succeeded at 821 (offset 20 lines).
+Hunk #25 succeeded at 838 (offset 20 lines).
+Hunk #26 succeeded at 853 (offset 20 lines).
+Hunk #27 succeeded at 871 (offset 20 lines).
+Hunk #28 succeeded at 897 (offset 20 lines).
+Hunk #29 succeeded at 918 (offset 20 lines).
+Hunk #30 succeeded at 940 (offset 20 lines).
+Hunk #31 succeeded at 961 (offset 20 lines).
+Hunk #32 succeeded at 982 (offset 20 lines).
+Hunk #33 succeeded at 1003 (offset 20 lines).
+Hunk #34 succeeded at 1024 (offset 20 lines).
+Hunk #35 succeeded at 1046 (offset 20 lines).
+Hunk #36 succeeded at 1069 (offset 20 lines).
+Hunk #37 succeeded at 1087 (offset 20 lines).
+Hunk #38 succeeded at 1104 (offset 20 lines).
+Hunk #39 succeeded at 1120 (offset 20 lines).
+Hunk #40 succeeded at 1138 (offset 20 lines).
+Hunk #41 succeeded at 1157 (offset 20 lines).
+Hunk #42 succeeded at 1174 (offset 20 lines).
+Hunk #43 succeeded at 1192 (offset 20 lines).
+Hunk #44 succeeded at 1208 (offset 20 lines).
+Hunk #45 succeeded at 1222 (offset 20 lines).
+Hunk #46 succeeded at 1236 (offset 20 lines).
+Hunk #47 succeeded at 1250 (offset 20 lines).
+Hunk #48 succeeded at 1264 (offset 20 lines).
+done

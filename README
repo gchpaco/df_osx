@@ -1,0 +1,32 @@
+Mayday Tileset for Dwarf Fortress >= 31.12
+
+Mayday Tileset by May Green @ http://mayday.w.staszic.waw.pl/df.php
+linux patcher by rofl0r
+
+tested with 31.14, 31.16, 31.17, 31.18, 31.19 - OK
+
+* get dwarf fortress linux from bay12 website
+* extract it somewhere
+* copy/extract everything here into your dwarf fortress folder
+* run mayday-patch.sh
+
+after that you can port your worlds/saves/etc and have Fun.
+
+how to port your savegame
+=========================
+* copy your data/save folder to your new DF directory.
+* cd into it, delete region1/raw.
+* copy raw from DF base folder into your region1 folder - done.
+
+how to create a platform independant DFG package for redistribution
+(without need to redistribute the DF binaries)
+===================================================================
+* after you have tested the patch on the newest DF and it applied successfully,
+* unzip/tar the newest DF to some folder. it doesnt matter which platform's version it is.
+* run utils/clean.sh on that folder ( utils/clean.sh /path/to/DF )
+* copy everything from this repo into that folder
+* run mayday-patch.sh
+* you can now compress that folder with the packer of your choice and redistribute it.
+  the filesize should be around 700KB, since the game binaries are not inside.
+
+
